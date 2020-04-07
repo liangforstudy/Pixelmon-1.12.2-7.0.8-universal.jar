@@ -1,0 +1,102 @@
+{
+	"pools": 
+	[
+		{
+		"name": "artifacts",
+		"rolls": 1,
+		"entries": 
+			[
+				{
+				"type": "item",
+				"name": "pixelmon:master_ball",
+				"weight": 1
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:adamant_orb",
+				"weight": 1
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:lustrous_orb",
+				"weight": 1
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:prison_bottle",
+				"weight": 1
+				},
+				{
+				"type": "empty",
+				"weight": 45
+				}
+			]
+		},
+		{
+		"name": "holditems",
+		"rolls": 3,
+		"entries": 
+			[
+				{
+				"type": "item",
+				"name": "pixelmon:black_glasses",
+				"weight": 1
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:twisted_spoon",
+				"weight": 1
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:dread_plate",
+				"weight": 1
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:mind_plate",
+				"weight": 1
+				},
+				{
+				"type": "empty",
+				"weight": 5
+				}
+			]
+		},
+		{
+		"name": "gems",
+		"rolls": { "min": 1, "max": 6 },
+		"entries": 
+			[
+				{
+				"type": "item",
+				"name": "pixelmon:dark_gem",
+				"functions": 
+					[
+                        {
+                        "function": "set_count",
+                        "count": { "min": 1, "max": 3 }
+                        }
+                    ],
+				"weight": 2
+				},
+				{
+				"type": "item",
+				"name": "pixelmon:psychic_gem",
+				"functions": 
+					[
+                        {
+                        "function": "set_count",
+                        "count": { "min": 1, "max": 3 }
+                        }
+                    ],
+				"weight": 2
+				},
+				{
+				"type": "empty",
+				"weight": 5
+				}
+			]
+		}
+	]
+}
