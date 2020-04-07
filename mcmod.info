@@ -1,0 +1,17 @@
+[
+{
+  "modid": "pixelmon",
+  "name": "Pixelmon",
+  "description": "Pokémon, in Minecraft!",
+  "version": "7.0.8",
+  "mcversion": "1.12.2",
+  "forgeversion": "Forge 14.23.5.2768",
+  "url": "https://reforged.gg/",
+  "updateUrl": "https://reforged.gg/",
+  "authorList": ["Pixelmon Reforged Development Team"],
+  "credits": "Pixelmon Development Team for all their hard work over the years.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
